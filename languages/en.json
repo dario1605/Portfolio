@@ -1,0 +1,15 @@
+{
+ "profile": {
+    "rol":"Front End Developer",
+    "description": "I am in charge of a refrigerator, I have been working in the meat/commercial sector for 7 years and 1 year ago I began to train as a web developer at Coder House. Since I was a child, I have been passionate about technology and challenges. I am currently in looking for my first job in the world of programming to continue growing as a professional Responsible - Proactive - Positive attitude - Teamwork"
+
+ },
+ "experience": {
+    "first-job-title":"In charge",
+    "first-job-dates": "June 2018 - Current ",
+    "first-job-description": "I am in charge of taking care of the supply and logistics of the business, closing the box, maintaining a comfortable environment for the whole team, and meeting the objectives that the position requires of me.",
+    "second-job-title":"Butcher",
+    "second-job-dates": "April 2015 - June 2018 ",
+    "second-job-description": "I did work from the production side (milanesa, hamburgers, chorizos, black pudding) butchering, counter assembly and customer service. "
+ } 
+}

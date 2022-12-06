@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img src="/assets/icons/es.svg" alt="bandera españa"class="flags__img">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img src="/assets/icons/gb.svg" alt="bandera inglesa" class="flags__img">
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+
+        <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+
+        <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+
+        <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+
+        <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+
+      </div>
+      
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!--PROFILE CARD-->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="/assets/images/profile.jpg" alt="">
+          </div>
+          <div class="card__header">
+            <h2 class="card__title">DarioBritos</h2>
+            <p class="card__subtitle" data-section="profile" data-value="rol">Front end Developer</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+
+              <a href="mailto:dariobritos1605@gmail.com">dariobritos1605@gmail.com</a>
+            </div>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+
+            <a href="tel:3541555663">+54-3541555663</a>
+          </div>
+          <p class="card__text" data-section="profile" data-value="description">
+            Soy encargado de un frigorifico, hace 7 años
+            que me dedico al rubro carnico/comercial y hace 1 año 
+            comencé a formarme como desarollador web en Coder House.
+            Desde muy chico me apaciona la tecnologia y los desafios.
+            Actualmente estoy en busca de mi primer trabajo en el mundo 
+            de la programacion para seguir creciendo como profesional.
+            Responsable - Proactivo - Actitud positiva - Trabajo en equipo
+          </p>
+        </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__title">Experiences</h2>
+          <div class="experience">
+            <img src="/assets/images/logo.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="first-job-dates">
+                June 2018 - Current
+              </p>
+              <h3 class="experience__job" data-section="experience" data-value="first-job-title">Encargado</h3>
+              <p class="experience__description" data-section="experience" data-value="first-job-description">Me encargo de ocuparme del abastecimiento y 
+                logistica del negocio, cerrar la caja , mantener un ambiente
+                comodo para todo el equipo , y cumplir con los objetivos que me requiere el puesto.
+              </p>
+              <a href="https://www.google.com/maps/place/Frigor%C3%ADfico+10/@-31.3214841,-64.2730785,17z/data=!3m1!4b1!4m5!3m4!1s0x94329d2bd3b32077:0x2944413fa9c3e10d!8m2!3d-31.3214841!4d-64.2708898?hl=es" 
+                target="_blank" rel="noopener noreferrer">Frigorifico 10</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__title">Experiences</h2>
+          <div class="experience">
+            <img src="/assets/images/logo2.jpg" alt="logo2" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="second-job-dates">
+                April 2015 - June 2018
+              </p>
+              <h3 class="experience__job" data-section="experience" data-value="second-job-title">Carnicero</h3>
+              <p class="experience__description" data-section="experience" data-value="second-job-description">
+                Realizaba trabajo desde la parte de produccion(milanesas,
+                 hamburguesas, chorizos, morcillas) desposte, armado 
+                 de mostrador y atencion al cliente.
+              </p>
+              <a href="https://www.google.com/maps/place/Frigorifico+La+Cuartense/@-31.3123779,-64.2772536,16z/data=!4m5!3m4!1s0x0:0x99783909c1642a5c!8m2!3d-31.3123022!4d-64.2771187?hl=es" 
+                target="_blank" rel="noopener noreferrer">Frigorifico la Cuartence</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="/assets/images/hobbie.jpg" alt="Hobbie">
+          </div>
+          <h3 class="hobbie__title">Games</h3>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </article>
+      </section>
+      <section class="column column--rigth">
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <div class="skills">
+            <div class="skills_item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills__tech">React</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>  
+          </div>
+        </article><span></span>
+        <span></span>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="/assets/images/logo.png" alt="page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTLM</span>
+              <span class="project__tag">#CSS</span>
+            </div>
+            <h2 class="card__title">Primer proyecto</h2>
+            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque impedit, labore possimus ipsa
+            </p>
+            <div class="buttons">
+              <a href="https://dario1605.github.io/PrimerProyecto/" class="button button--primary" target="_blank" rel="noopener noreferrer">
+                Proyecto</a>
+              <a href="https://github.com/dario1605/PrimerProyecto" class="button button--ghost" target="_blank" rel="noopener noreferrer">
+                Codigo</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="/assets/images/logo.png" alt="page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTLM</span>
+              <span class="project__tag">#CSS</span>
+            </div>
+            <h2 class="card__title">Primer proyecto</h2>
+            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque impedit, labore possimus ipsa
+            </p>
+            <div class="buttons">
+              <a href="https://dario1605.github.io/PrimerProyecto/" class="button button--primary" target="_blank" rel="noopener noreferrer">
+                Proyecto</a>
+              <a href="https://github.com/dario1605/PrimerProyecto" class="button button--ghost" target="_blank" rel="noopener noreferrer">
+                Codigo</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="/assets/images/logo.png" alt="page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTLM</span>
+              <span class="project__tag">#CSS</span>
+            </div>
+            <h2 class="card__title">Primer proyecto</h2>
+            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque impedit, labore possimus ipsa
+            </p>
+            <div class="buttons">
+              <a href="https://dario1605.github.io/PrimerProyecto/" class="button button--primary" target="_blank" rel="noopener noreferrer">
+                Proyecto</a>
+              <a href="https://github.com/dario1605/PrimerProyecto" class="button button--ghost" target="_blank" rel="noopener noreferrer">
+                Codigo</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

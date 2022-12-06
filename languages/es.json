@@ -1,0 +1,15 @@
+{
+ "profile": {
+    "rol":"Desarrollador Front-end",
+    "description": "Soy encargado de un frigorifico, hace 7 años que me dedico al rubro carnico/comercial y hace 1 año comencé a formarme como desarollador web en Coder House. Desde muy chico me apaciona la tecnologia y los desafios. Actualmente estoy en busca de mi primer trabajo en el mundo de la programacion para seguir creciendo como profesional. Responsable - Proactivo - Actitud positiva - Trabajo en equipo "
+
+ },
+ "experience": {
+    "first-job-title":"Encargado",
+    "first-job-dates": "June 2018 - Current ",
+    "first-job-description": "Me encargo de ocuparme del abastecimiento y logistica del negocio, cerrar la caja , mantener un ambiente comodo para todo el equipo , y cumplir con los objetivos que me requiere el puesto. ",
+    "second-job-title":"Carnicero",
+    "second-job-dates": "April 2015 - June 2018 ",
+    "second-job-description": "Realizaba trabajo desde la parte de produccion(milanesas, hamburguesas, chorizos, morcillas) desposte, armado de mostrador y atencion al cliente.  "
+ } 
+}
