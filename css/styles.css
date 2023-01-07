@@ -153,6 +153,16 @@ body.dark{
     border-radius: var(--border-radius);
 }
 
+.card__image{
+    border: solid 2px var(--primary-color);
+    width: 200px;
+    height: 200px;
+}
+.card__image:hover{
+    box-shadow: 5px 5px 15px var(--primary-color);
+    transform: translateY(-1%);
+}
+
 .card__image-container {
     min-width: 320px;
     border-radius:var(--border-radius) ;
